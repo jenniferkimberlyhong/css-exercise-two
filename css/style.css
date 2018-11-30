@@ -1,13 +1,27 @@
 body {
-  background-color: #ff0000;
+  font-size: 16px;
+  line-height: 1.2;
+  background-color: #ffffff;
   color: #0000FF;
 }
 
+body{
+  background-image: url(https://github.com/jenniferkimberlyhong/css-exercise-two/blob/master/images/instagram-pic.jpg);
+}
+
 nav {
-  background-color: rgba(0,0,0,.5);
+  background-color: rgba(0,0,0,0.5);
   float: left;
   position: fixed;
   width: 100%;
+}
+
+header {
+  font-family: Helvetica;
+}
+
+p {
+  text-align: left;
 }
 
 .logo {
