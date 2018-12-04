@@ -2,25 +2,35 @@ body {
   font-size: 16px;
   line-height: 1.2;
   background-color: #ffffff;
-  color: #0000FF;
+  color: black;
+  font-family: Sans-serif;
 }
-
-body{
-  background-image: url(https://github.com/jenniferkimberlyhong/css-exercise-two/blob/master/images/instagram-pic.jpg);
+body {
+  background: #fff url(css-exercise-two/images/instagram-pic.jpg) no-repeat top center;
 }
 
 nav {
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.2);
   float: left;
-  position: fixed;
+  position: no-repeat;
   width: 100%;
 }
 
 header {
-  font-family: Helvetica;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 16px;
 }
 
 p {
+  font-size: 12px;
   text-align: left;
 }
 
@@ -54,6 +64,23 @@ ul {
 li {
   float: right;
   padding: 30px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: green;
 }
 
 article {
