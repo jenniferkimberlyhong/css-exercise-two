@@ -5,9 +5,6 @@ body {
   color: black;
   font-family: Sans-serif;
 }
-body {
-  background: #fff url(css-exercise-two/images/instagram-pic.jpg) no-repeat top center;
-}
 
 nav {
   background-color: rgba(0,0,0,0.2);
@@ -32,6 +29,7 @@ h3 {
 p {
   font-size: 12px;
   text-align: left;
+  padding-bottom: 8px;
 }
 
 .logo {
